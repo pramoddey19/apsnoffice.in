@@ -6,6 +6,133 @@
 <title>APSN Consultancy | Managed Offices & Coworking in Pune</title>
 <meta name="description" content="APSN Consultancy helps startups, SMEs and growing businesses find managed offices, private offices and coworking spaces across Pune.">
 <style>
+ /* PPP SECTION */
+
+.ppp-section {
+    padding: 80px 20px;
+    background: #f8fafc;
+    text-align: center;
+}
+
+.section-title span {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #2563eb;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    margin: 12px 0;
+}
+
+.section-title p {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: #64748b;
+    line-height: 1.7;
+}
+
+.ppp-grid {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.ppp-card {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+}
+
+.ppp-icon {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.ppp-card h3 {
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+.ppp-card p {
+    color: #64748b;
+    line-height: 1.7;
+}
+
+
+/* CONNECT SECTION */
+
+.connect-section {
+    padding: 80px 20px;
+    text-align: center;
+    background: white;
+}
+
+.connect-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.connect-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.google-btn {
+    background: #f1f5f9;
+    color: #111827;
+}
+
+.linkedin-btn {
+    background: #0a66c2;
+    color: white;
+}
+
+.x-btn {
+    background: #111827;
+    color: white;
+}
+
+.connect-btn:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .ppp-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .connect-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .connect-btn {
+        width: 90%;
+        max-width: 350px;
+    }
+}
 :root{--navy:#071538;--blue:#2463ff;--text:#102047;--muted:#5f7092;--line:#dce5f4;--soft:#eef5ff;--green:#0c9b67}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--text);background:#fff}
@@ -141,7 +268,91 @@ input,select,textarea{width:100%;padding:13px 14px;border:1px solid #cfd9e8;bord
 <p class="note">Your information will be used to respond to your workspace enquiry.</p>
 </div></section>
 </main>
+<!-- PPP SECTION -->
+<section class="ppp-section">
+    <div class="section-title">
+        <span>Our Promise</span>
+        <h2>PPP — People. Place. Performance.</h2>
+        <p>
+            We bring together the right people, the right place and the right
+            environment to help businesses perform better.
+        </p>
+    </div>
 
+    <div class="ppp-grid">
+
+        <div class="ppp-card">
+            <div class="ppp-icon">👥</div>
+            <h3>People</h3>
+            <p>
+                A professional environment where teams can collaborate,
+                connect and grow.
+            </p>
+        </div>
+
+        <div class="ppp-card">
+            <div class="ppp-icon">📍</div>
+            <h3>Place</h3>
+            <p>
+                Professional managed offices across Pune's key business
+                locations.
+            </p>
+        </div>
+
+        <div class="ppp-card">
+            <div class="ppp-icon">📈</div>
+            <h3>Performance</h3>
+            <p>
+                Workspaces designed to help businesses operate professionally
+                and productively.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- RATE & CONNECT SECTION -->
+<section class="connect-section">
+
+    <div class="section-title">
+        <span>Stay Connected</span>
+        <h2>Rate Us & Connect With APSN</h2>
+        <p>
+            Your feedback matters. Share your experience and connect with us
+            online.
+        </p>
+    </div>
+
+    <div class="connect-buttons">
+
+        <!-- Google Rating -->
+        <a href="YOUR_GOOGLE_REVIEW_LINK"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="connect-btn google-btn">
+            ⭐ Rate Us on Google
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="YOUR_LINKEDIN_LINK"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="connect-btn linkedin-btn">
+            in &nbsp; Connect on LinkedIn
+        </a>
+
+        <!-- X -->
+        <a href="YOUR_X_LINK"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="connect-btn x-btn">
+            𝕏 &nbsp; Follow us on X
+        </a>
+
+    </div>
+
+</section>
 <footer class="footer"><div class="footer-inner">
 <div><strong>APSN Consultancy</strong><br><small>Managed Offices | Coworking | Workspaces</small></div>
 <div>© 2026 APSN Consultancy</div>
